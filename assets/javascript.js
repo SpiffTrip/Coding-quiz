@@ -117,7 +117,7 @@ function selectAnswer(e) {
     }
 }
 
-function selectStatusClass(element, correct) {
+function setStatusClass(element, correct) {
     clearStatusClass(element)
     if (correct) {
         element.classList.add('correct')
